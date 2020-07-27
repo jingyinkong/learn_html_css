@@ -1,0 +1,57 @@
+HTML
+
+元素
+	开始标签	元素内容	结束标签
+	<p>			xxxxx		</p>	
+	<br/>(换行)(空标签，空元素)
+	(可嵌套)
+属性
+	可以为元素设定更多信息
+	以键值对的形式出现
+		href = "http://www.baidu.com"
+	常用属性
+		<h1>：align 对其方式
+		<body>：bgcolor 背景颜色
+		<a>：target 打开连接的方式
+	通用属性
+		class：类名
+		id：ID
+		style：样式(可以用于引入css,js)
+		title：规定元素的额外信息
+格式化
+	<b>		粗体文体
+	<big>	大号字
+	<em>	着重文字
+	<i>		斜体字
+	<small>	小号字
+	<strong>加重语气
+	<sub>	下标字
+	<sup>	上标字
+	<ins>	插入字
+	<del>	删除字
+样式
+	样式的操作建议放到head中
+	插入方法
+		外部样式表
+			<link rel = "stylesheet" type = "text/css" href = "xxx.css">
+		内部样式表
+			<style type = "text/css">
+				body {background-color:red}
+				p{margin-left:20px}
+			</style>
+		内联样式表
+			<p style = "color:red"></p>
+链接
+	链接数据
+		文字链接
+			<a href = "http://www.baidu.com" target = "_black">点击我</a>
+		图片链接
+			<a href = "http://www.baidu.com" target = "_black"> <img src = "image/壁纸.jpg"></a>
+	属性
+		href属性：指向另一个文档的链接(= "#"为空连接)
+		name属性：创建文档内的链接(从页面的一个位置跳转到另一个位置)
+	img标签属性
+		alt：替换文本属性(图片不显示的时候替换的文本)
+		width：宽
+		height：高
+		<a href = "http://www.baidu.com" target = "_black"> <img src = "image/纸.jpg" width = "200px" helght = "200px" alt = "壁纸"></a>

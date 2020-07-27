@@ -1,0 +1,35 @@
+文本属性
+	文本属性
+		color: red;
+		color: rgb(255,255,0)
+		color: #FF0000(常用)
+		三种设定形式
+	对齐文本
+		text-align: left/right/center(只能设定水平对齐)
+	文本装饰(下划线/删除线/上划线)
+		text-decoration
+			none 最常用
+			underline 常用
+			overline
+			line-through
+		可以用于去掉<a>标签的下划线
+		a {
+			text-decoration: none;
+		}
+	文本缩进
+		text-indent: 10px;
+		文本的首行缩进
+		很好的单位 em相对单位，当前文本的一个文字的大小
+		2em常用
+	行间距
+		line-height: 20px;
+		可以通过屏幕标尺来量行高(从文字的底到下一行的文字底)
+引入方式
+	CSS的三种样式表
+	行内样式表
+		<div style = "color: red;"></div>
+	内部样式表
+		写到<style>中，通俗放到了<head>标签中
+	外部样式表(使用最多)
+		单独写到CSS文件中，
+		<link rel = stylesheet href = "css文件路径">

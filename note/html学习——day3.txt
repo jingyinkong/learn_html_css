@@ -1,0 +1,62 @@
+表单
+	用于获取不同类型的用户输入
+	标签
+		<form>		表单
+		<input>		输入域
+		<textarea>	文本域
+		<label>		控制标签
+		<fieldset>	定义域
+		<legend>	域的标题
+		<select>	选择列表
+		<optgroup>	选项组
+		<option>	下拉列表中的选项
+		<button>	按钮
+	复选框
+		<input type = "checkbox">
+	单选按钮
+		<input type = "radio" name = "sex">(name属性是为了将多个集合在一起)
+	下拉列表
+		<select>
+			<option>www.baidu.com</option>
+			<option>www.jikexueyuan</option>
+			<option>www.qq.com</option>
+		</select>
+	文本域
+		<textarea cols = "30" rows = "30">请在这里填写信息</textarea>
+	创建按钮
+		<input type = "button" value = "按键"></input>
+		<input type = "submit" value = "确定"></input>
+	控制标签
+		<input id = "ID"><label for = "ID"><img = src = ""></img>文字</label>
+		可以绑定文字或者图片到选择框上
+框架
+	对于页面设计有着很大作用
+	标签<frame>
+	框架集标签<frameset>(使用少)
+		框架集标签定义如何将窗口分割为框架
+		每一个frameset定义一系列行或列
+		rows/cols的值规定了每行或每列占据屏幕的面积
+	常用标签
+		noresize: 固定框架大小
+		cols:列
+		rows:行
+	内联框架
+		iframe
+		<iframe src = "1.html" frameborder = "0" width = "800px" height = "800px"></iframe>
+		属性
+			src(输入)
+			frameborder(边框)
+		配合<a>标签使用
+			属性target 通过设定_parent，_top
+			可以让超链接显示到父级框架或者首框架
+背景
+	标签
+		Background
+	颜色
+		Bgcolor
+		颜色是由一个十六进制符号定义(RGB)
+		最小值0
+		最大值255
+实体
+	HTML中预留字符串必须被替换成字符实体
+	如：<(&lt)、>(&gt)、&

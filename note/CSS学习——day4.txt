@@ -1,0 +1,26 @@
+Emmet语法
+	使用缩写，提高html/css的编写速度
+	1、快速生成HTML结构语法
+		输入标签名按tab
+		生成多个表情 div*3
+		如果有父子级关系的标签，可以使用>
+			ul>li
+		如果有兄弟关系用+
+			div+p
+		类名
+			标签.类名
+			p.one
+		按顺序生成 
+			($自增符号)
+			.demo$*5
+			<div class="demo1"></div>
+			<div class="demo2"></div>
+			<div class="demo3"></div>
+			<div class="demo4"></div>
+			<div class="demo5"></div>
+		想生成的标签里面默认显示文字
+			div{aaa}
+			<div>aaa</div>
+	2、快速生成CSS样式语法
+		名字缩写直接tab
+	3、快速格式化

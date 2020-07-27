@@ -1,0 +1,70 @@
+CSS(层叠样式表)
+
+美化网页，布局页面
+HTML局限性：显示出来丑、臃肿繁琐
+CSS样式表、级联样式表
+CSS最大价值：由HTML专注去做结构呈现，样式交给CSS即结构和样式分离
+选择器+声明
+<style>
+P {
+	color: red;
+	font-size: v 12px;
+}
+</style>
+
+属性：color;font-size(文字大小);
+
+选择器
+	选择标签用
+	基础选择器
+		标签选择器
+			p {
+				color: red;
+			}
+			某一类的标签全部更改
+		类选择器
+			.red(自己定义)(不可以用标签名)(可以用短横线) {
+				color: red;
+			}
+			<p class = "red">
+			单独选择其中一个或者几个标签更改
+			样式点定义，结构类调用，一个或多个，开发最常用
+			多类名
+				<div class="red font20"></div>
+				class 可以写多类名，中间用空格隔开
+				使用场景：类共通化
+			
+		id选择器
+			#lala {
+				color: red;
+			}
+			<p id = "lala">
+			样式#定义，结构id调用，只能调用一次，别人切勿使用
+			一般用在页面唯一性的元素上，经常和js搭配使用
+		通配符选择器
+			*定义可以选取页面中所有的元素
+			* {
+				color: red;
+			}
+			特殊情况才会使用
+	复合选择器
+
+字体属性
+	字体系列
+		fond-family:"Microsoft YaHei", Arial;
+		优先检查第一个字体，优先使用第一个字体
+		开发中最常用，body{fond-family:""}
+	字号大小
+		font-size: 16px;
+		标题标签比较特殊，需要单独制定文字大小
+	字体粗细
+		font-weight: normal;
+		font-weight: 700;(提倡使用)
+	文字样式(斜体、非斜体)
+		font-style: normal/italic;
+		与标签<em>效果相似
+		常用于倾斜的字体不倾斜
+	复合属性
+		font: font-style font-weight font-size/line-height fond-family
+		必须有font-size 和 fond-family
+		

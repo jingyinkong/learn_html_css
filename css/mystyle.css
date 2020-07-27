@@ -1,0 +1,21 @@
+a:any-link {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #999;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active {
+    color: darkblue;
+}
+
+input:focus {
+    background-color: khaki;
+    color: red;
+}

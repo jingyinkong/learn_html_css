@@ -1,0 +1,105 @@
+表格
+	<table>		表格
+		边框属性(border)
+		单元格内边距(cellpadding)
+		单元格外边距(cellspacing)
+		背景颜色(bgcolor)
+		背景图片(background)
+	<caption>	表格标题
+	<th>		表头
+	<tr>		行
+	<td>		单元
+	<thead>		页眉
+	<tbody>		主体
+	<tfoot>		页脚
+	<col>		列属性
+	都在table元素中设定的
+列表
+	<ol>		有序列表
+	<ul>		有序列表
+	<li>		列表项
+	<dl>		列表
+	<dt>		列表项
+	<dd>		描述
+	无序列表
+		使用标签：<ul>、<li>
+		属性：disc、circle、square
+		(前面小圆圈设定属性:type)(不需要可以设定none)
+	有序列表
+		使用标签：<ol>、<li>
+		属性：A、a、l、i、start(可以定义从哪里开始)
+		(默认是1,2,3排序,设定属性:type)
+	嵌套列表
+		使用标签：<ul>、<ol>、<li>
+	自定义列表
+		使用标签：<dl>、<dt>、<dd>
+注释
+	<!-- -->
+块
+	块元素
+		会以新行开始。如<h1>、<p>、<ul>
+	内联元素
+		不会以新行开始。如<b>、<a>、<img>
+	<div>元素
+		HTML元素的容器，主要是配合一些样式使用，比如CSS
+		引入样式
+		<link rel = "stylesheet" type = "text/css" href = "mystyle.css">
+		mystyle.css中设定样式ID “#” + “CSS的ID” + 子元素
+		<div ID = "CSS的ID"></div>
+	<span>元素
+		内联元素，文本的容器
+		一般在<div></div>中使用
+布局
+	使用<div>元素布局	
+		<div id = "container">
+			<div id = "heading">头部</div>
+			<div id = "content_menu">内容菜单</div>
+			<div id = "content_body">内容主体</div>
+			<div id = "footing">底部</div>
+		</div>
+		<style type = "text/css">
+			body{
+				margin: 0;
+			}
+			#container{
+				width: 100%;(设置宽度)
+				height: 950px;(设置长度)
+				background-color: gray;(设置颜色)
+			}
+			#heading{
+				width: 100%;
+				height: 10%;
+				background-color: blue;
+			}
+			#content_menu{
+				width: 30%;
+				height: 80%;
+				background-color: pink;
+				float: left;(设置浮动)
+			}
+			#content_body{
+				width: 70%;
+				height: 80%;
+				background-color: red;
+				float: left;
+			}
+			#footing{
+				width: 100%;
+				height: 10%;
+				background-color: green;
+				clear: both;(清除浮动)
+			}
+		</style>
+	使用<table>元素布局
+		<table width="100%" height="950px" style="background-color: blue">
+			<tr>
+				<td colspan = "2" width = "100%" height = "10%" style = "background-color: white">头部</td>(colspan是分为几个表单)
+			</tr>
+			<tr>
+				<td width = "30%" height = "80%" style = "background-color: red">左菜单</td>
+				<td width = "70%" height = "80%" style = "background-color: gray"></td>
+			</tr>
+			<tr>
+				<td colspan = "2" width = "100%" height = "10%" style = "background-color: green">底部</td>
+			</tr>
+		</table>
