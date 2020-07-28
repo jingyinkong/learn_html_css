@@ -1,3 +1,10 @@
+a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
 a:any-link {
     color: #333;
     text-decoration: none;
@@ -18,4 +25,11 @@ a:active {
 input:focus {
     background-color: khaki;
     color: red;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: pink;
+    display: inline;
 }
