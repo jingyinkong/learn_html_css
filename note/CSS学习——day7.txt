@@ -1,0 +1,36 @@
+小技巧：单行文字垂直居中
+	让文字高度等于盒子高度
+	原理：行高等于上空隙+下空隙+文字
+	将文字放到盒子里行高一样了，自然就居中了。
+背景
+	背景颜色
+		background-color
+	背景图片(小装饰性图片，背景，logo)
+		background-image：url()/none
+		非常便于控制位置
+	背景图片平铺
+		background-repeat:repeat/no-repeat/repeat-x/repeat-y
+		常用(background-repeat: no-repeat)
+		默认的情况下是平铺的
+		页面元素既可以添加背景，也可以添加背景图片
+	背景图片位置
+		background-position：x坐标 y坐标
+		length 百分比 position top center bottom left center right
+			方位名词 right center 和 center right是等价的
+				如果光写一个background-position：right 水平是靠右的，垂直是居中的
+				背景图片位置可以设置为 center top 可以显示最关键的位置
+			精确单位，一定是x,y,如果只写了一个，另一个一定是垂直居中的
+			混合单位，精确单位+方位名词
+	背景图像固定(背景附着)
+		是否随着页面滚动
+		可以做一些视差滚动效果
+		background-attachment:scroll(默认)/fixed
+	复合写法
+		background 
+		没有前后顺序
+		习惯性是 背景颜色 背景图片地址 背景平铺 背景图像滚动 背景图片位置
+		background: transparent url(image.jpg) repeat-y fixed top
+	css3背景色半透明
+		background: rgba(0,0,0,0.3(透明度));
+		透明度的取值范围是0~1
+		0.3一般习惯吧0省略然后写成.3
