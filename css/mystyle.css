@@ -1,51 +1,16 @@
-    body {
-        /* font-family: "微软雅黑";
-        background-image: url(../image/王者荣耀背景.jpg);
-        background-repeat: no-repeat;
-        background-position: center 40px;
-        background-attachment: fixed; */
-        background: rgba(100, 100, 100, 0.5) url(../image/王者荣耀背景.jpg) no-repeat center 40px fixed;
-    }
-    
-    a {
-        display: block;
-        width: 100px;
-        height: 100px;
-        background-color: pink;
-    }
-    
-    a:any-link {
-        color: #333;
-        text-decoration: none;
-    }
-    
-    a:visited {
-        color: #999;
-    }
-    
-    a:hover {
-        color: cornflowerblue;
-    }
-    
-    a:active {
-        color: darkblue;
-    }
-    
-    input:focus {
-        background-color: khaki;
-        color: red;
-    }
-    
-    h3 {
-        width: 118px;
-        height: 41px;
-        background-color: pink;
-        background-image: url(../image/成长守护平台icon.png);
-        background-repeat: no-repeat;
-        /* background-position: left center; */
-        line-height: 41px;
-        font-size: 14px;
-        font-weight: normal;
-        text-indent: 2em;
-        background-position: 2px center;
-    }
+body {
+    font: 12px/1.5 "微软雅黑";
+}
+
+div {
+    color: pink;
+}
+
+.nav li {
+    color: red;
+}
+
+.nav .xiaoli {
+    color: pink;
+    font-weight: 700;
+}

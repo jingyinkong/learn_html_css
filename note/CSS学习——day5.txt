@@ -39,4 +39,6 @@ CSS的复合选择器
 				input:focus {
 					background-color: khaki;
 				}
+		类也可以用链接伪类
+			.bg1:hover
 			
