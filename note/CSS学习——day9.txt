@@ -1,0 +1,44 @@
+页面布局要学习的三大核心，盒子模型，浮动，定位
+网页布局的过程
+1、先准备好相关网页元素、网页元素基本都是盒子BOX
+2、CCS设置样式，放到对应的位置
+3、往盒子里装内容
+
+盒子模型
+	装内容的容器，封装周围的HTML元素，包括边距、外边距、内边距、和实际内容
+	border边框：边框属性
+	content内容：内容属性
+	padding内边距：控制内容和边框的距离
+	margin外边距：控制一个盒子和另一个盒子的距离
+	
+	边框(border)
+		边框宽度:border-width(px单位) solid(实线边框) dashed(虚线边框) dotted(点线边框)
+		边框样式:border-style
+		边框颜色:border-color
+		复合写法： border：1px solid red
+		边框可以分开写：border-top bottom left right
+		
+		表格的细线边框
+			为了解决设置边框后会变成两倍边框
+			border-collapse:collapse;(合并相邻的边框)
+		
+		边框会影响盒子的实际大小
+			如果div是200x200，加了10px的边框的话，实际大小会变成220x220
+			所以在测量盒子大小的时候，不量边框，或者量之后减去边框的宽度
+	内边距(padding)
+		内边距上宽度：padding-top
+		内边距下宽度：padding-bottom
+		内边距左宽度：padding-left
+		内边距右宽度：padding-right
+		复合写法：
+			padding:5px(所有内边距都5像素)
+			padding:5px 10px;(上下5像素，左右10像素)
+			padding:5px 10px 20px;(上下5像素，左右10像素，下20像素)
+			padding:5px 10px 20px 30px;(上下5像素，右10像素，下20像素 左30像素)
+					(上右下左)
+			也会影响盒子大小的
+			
+		
+		
+		
+

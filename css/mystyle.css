@@ -3,14 +3,10 @@ body {
 }
 
 div {
-    color: pink;
-}
-
-.nav li {
-    color: red;
-}
-
-.nav .xiaoli {
-    color: pink;
-    font-weight: 700;
+    width: 180px;
+    height: 180px;
+    background-color: pink;
+    border: blue solid 5px;
+    border-top-color: red;
+    padding: 5px;
 }
