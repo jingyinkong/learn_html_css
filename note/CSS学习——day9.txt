@@ -32,12 +32,12 @@
 		内边距右宽度：padding-right
 		复合写法：
 			padding:5px(所有内边距都5像素)
-			padding:5px 10px;(上下5像素，左右10像素)
-			padding:5px 10px 20px;(上下5像素，左右10像素，下20像素)
-			padding:5px 10px 20px 30px;(上下5像素，右10像素，下20像素 左30像素)
+			padding:5px 10px;(上5像素，左右10像素)
+			padding:5px 10px 20px;(上5像素，左右10像素，下20像素)
+			padding:5px 10px 20px 30px;(上5像素，右10像素，下20像素 左30像素)
 					(上右下左)
 			也会影响盒子大小的
-			
+		可以合理的利用(padding)来根据文字控制盒子大小
 		
 		
 		

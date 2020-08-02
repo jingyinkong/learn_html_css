@@ -2,7 +2,6 @@ body {
     font-size: 16px;
     font-weight: normal;
     font-family: "微软雅黑";
-    text-indent: 2em;
 }
 
 div {
@@ -16,17 +15,12 @@ a {
     color: white;
     background-color: rgb(83, 87, 88);
     display: block;
-    width: 234px;
+    width: 20 4px;
     height: 42px;
     line-height: 42px;
+    padding-left: 30px;
 }
-
-a:link {}
-
-a:visited {}
 
 a:hover {
     background-color: rgb(255, 103, 0);
 }
-
-a:active {}
