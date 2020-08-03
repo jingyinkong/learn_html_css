@@ -1,12 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font: 12px/1.5 "微软雅黑";
+    text-align: center;
 }
 
 div {
+    background-color: pink;
+    /* border: transparent solid 5px; */
+    /* padding: 5px; */
+    display: inline-block;
+    overflow: hidden;
+}
+
+.one {
+    background-color: pink;
     width: 180px;
     height: 180px;
-    background-color: pink;
-    border: blue solid 5px;
-    border-top-color: red;
-    padding: 5px;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+}
+
+.two {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* margin: 0 auto; */
+    margin-top: 60px;
 }

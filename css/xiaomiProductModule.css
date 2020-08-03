@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px "微软雅黑";
+    text-align: center;
+}
+
+div {
+    margin: 50px auto;
+    width: 1300px;
+    height: 300px;
+    /* display: block-inline; */
+}
+
+img {}
+
+li {
+    float: right;
+}
+
+a {
+    width: 243px;
+    height: 300px;
+    display: inline-block;
+}
