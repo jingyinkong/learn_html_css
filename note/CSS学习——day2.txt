@@ -24,6 +24,10 @@
 	行间距
 		line-height: 20px;
 		可以通过屏幕标尺来量行高(从文字的底到下一行的文字底)
+	文字省略
+		white-space: nowrap;	/*不进行换行*/
+		overflow:hidden; 		/*溢出隐藏*/
+		text-overflow:ellipsis;
 引入方式
 	CSS的三种样式表
 	行内样式表
