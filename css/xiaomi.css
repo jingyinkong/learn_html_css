@@ -1,26 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-    font-size: 16px;
-    font-weight: normal;
-    font-family: "微软雅黑";
+    font: 14px/1.5 normal "微软雅黑";
 }
 
-div {
-    background-color: rgb(83, 87, 88);
+ul {
     width: 234px;
-    height: 460px;
+    height: 420px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-a {
+li>a {
     text-decoration: none;
     color: white;
-    background-color: rgb(83, 87, 88);
+    /* background-color: rgb(83, 87, 88); */
     display: block;
-    width: 20 4px;
-    height: 42px;
     line-height: 42px;
     padding-left: 30px;
 }
 
-a:hover {
+li>a:hover {
     background-color: rgb(255, 103, 0);
+}
+
+ul>li {
+    width: 20px 4px;
+    height: 42px;
+    list-style-type: none;
+}
+
+.top {
+    width: 1226px;
+    height: 460px;
+    background: url("../image/xiaomibg.jpg");
+    margin: 0 auto;
+}
+
+.nav {
+    float: left;
+    background-color: rgba(83, 87, 88, .6);
+    width: 234px;
+    height: 460px;
+}
+
+.bg {
+    float: left;
+    width: 992px;
+    height: 460px;
 }
