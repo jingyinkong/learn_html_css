@@ -48,7 +48,7 @@ a>p {
 .box {
     margin: 50px auto;
     width: 1226px;
-    height: 300px;
+    height: 613px;
     /* display: block-inline; */
 }
 
@@ -62,9 +62,9 @@ a>p {
 
 .image {
     width: 234px;
-    height: 300px;
+    height: 613px;
     float: left;
-    background-image: url(../image/AirBots.jpg);
+    background-image: url(../image/xiaomi_mix_alpha.jpg);
 }
 
 .introduction {
