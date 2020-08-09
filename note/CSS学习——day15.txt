@@ -1,0 +1,32 @@
+额外标签法(不常用)
+	在浮动元素末尾添加一个空的标签，空标签使用chear:both;
+	优点：通俗易懂，书写方便
+	缺点：添加许多无意义的标签，结构化较差
+	注意新的空标签必须是块级元素
+给父级添加overflow
+	属性值可以随便制定，一般制定hidden
+	优点：代码简洁
+	缺点：无法显示溢出的部分
+：after伪元素法
+	给父元素添加
+	.clearfix:after{
+		content:"";
+		display:block:
+		height:0;
+		clear:both;
+		visibility:hidden;
+	}
+	.clearfix{
+		*zoom:1;
+	}
+双伪元素清除浮动(常用)
+	.clearfix:before,clearfix:after{
+		content:"";
+		display:table;
+	}
+	.clearfix:after{
+		clear:both;
+	}
+	.clearfix{
+		*zoom:1;
+	}
