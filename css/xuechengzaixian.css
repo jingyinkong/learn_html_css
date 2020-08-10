@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.5 "微软雅黑";
+}
+
+.top {
+    width: 100%;
+    height: 349px;
+    background-color: #f3f5f7;
+}
