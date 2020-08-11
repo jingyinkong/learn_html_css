@@ -13,23 +13,116 @@ body {
     background-color: #f3f5f7;
 }
 
+.logo {
+    float: left;
+    height: 100px;
+    line-height: 125px;
+}
+
 .topmain {
+    margin: 0 auto;
     width: 1200px;
     height: 100px;
-    margin: 0 auto;
     background-color: pink;
+}
+
+.top-nav {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+.user {
+    height: 100px;
+    float: right;
+    line-height: 100px;
 }
 
 .image {
     width: 100%;
-    height: 450px;
-    background-color: skyblue;
+    height: 420px;
+    background: url(./images/banner2.png) no-repeat center top;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 1200px;
+    height: 420px;
+}
+
+.nav-left {
+    float: left;
+    width: 190px;
+    height: 420px;
+}
+
+.nav-left ul li {
+    width: 20px 4px;
+    height: 42px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    /* background-color: rgb(83, 87, 88); */
+    display: block;
+    line-height: 42px;
+    padding-left: 30px;
+}
+
+.learn {
+    float: left;
+    display: block;
+    float: left;
+    width: 785px;
+    height: 420px;
+}
+
+.nav-right {
+    float: right;
+    width: 225px;
+    height: 300px;
+    background-color: powderblue;
 }
 
 .main {
-    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
     height: 2383px;
     background-color: plum;
+}
+
+.recommend-nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 1200px;
+    height: 60px;
+    background-color: powderblue;
+}
+
+.recommend-top {
+    height: 42px;
+    background-color: skyblue;
+}
+
+.recommend-main {
+    margin-bottom: 23px;
+    height: 456px;
+    background-color: powderblue;
+}
+
+.program-nav {
+    height: 41px;
+    background-color: skyblue;
+}
+
+.program-main {
+    margin-bottom: 40px;
+    height: 392px;
+    background-color: powderblue;
 }
 
 .footer {
