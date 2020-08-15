@@ -12,6 +12,9 @@ a {
     text-decoration: none;
 }
 
+
+/* 导航栏区域 */
+
 .top {
     width: 100%;
     height: 100px;
@@ -99,6 +102,9 @@ a {
     line-height: 30px;
 }
 
+
+/* 广告区域 */
+
 .image {
     width: 100%;
     height: 420px;
@@ -110,6 +116,9 @@ a {
     width: 1200px;
     height: 420px;
 }
+
+
+/* 左侧导航栏区域 */
 
 .nav-left {
     float: left;
@@ -137,8 +146,7 @@ a {
     margin-top: 20px;
 }
 
-.nav-left ul li a p {
-    display: block;
+.nav-left ul li a span {
     float: right;
     padding-right: 20px;
 }
@@ -146,6 +154,9 @@ a {
 .nav-left ul li a:hover {
     color: #00b4ff;
 }
+
+
+/* 右侧导航栏区域 */
 
 .learn {
     float: left;
@@ -214,6 +225,9 @@ a {
     font-weight: 700;
 }
 
+
+/* 主要内容区域 */
+
 .main {
     margin: 0 auto;
     width: 1200px;
@@ -221,8 +235,11 @@ a {
     /* background-color: plum; */
 }
 
+
+/* 精品推荐 */
+
 .recommend-nav {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     width: 1200px;
     height: 60px;
@@ -261,15 +278,78 @@ a {
     color: #00a4ff;
 }
 
+.recommend-nav-content a {
+    color: #000;
+}
+
 .recommend-top {
-    height: 42px;
-    background-color: skyblue;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.recommend-top h3 {
+    float: left;
+    font-weight: 400;
+    color: #494949;
+}
+
+.recommend-top p {
+    margin-top: 10px;
+    margin-right: 12px;
+    float: right;
+    font-size: 12px;
+}
+
+.recommend-top p a {
+    color: #a5a5a5;
 }
 
 .recommend-main {
-    margin-bottom: 23px;
-    height: 456px;
-    background-color: powderblue;
+    height: 570px;
+}
+
+.recommend-main ul li {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    list-style: none;
+    background-color: #fff;
+}
+
+.recommend-main ul .left-first {
+    margin-left: 0px;
+}
+
+.recommend-main ul li img {
+    width: 228px;
+    height: 155px;
+}
+
+.recommend-main ul li .line-first {
+    margin: 17px 25px;
+    color: #050505;
+}
+
+.recommend-main ul li .line-second {
+    height: 12px;
+    color: #050505;
+}
+
+.recommend-main ul li .content-1 {
+    float: left;
+    margin-left: 25px;
+    color: #ff7c2d;
+    font-size: 12px;
+}
+
+.recommend-main ul li .content-2,
+.recommend-main ul li .content-3 {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #999999;
 }
 
 .program-nav {
@@ -315,6 +395,9 @@ a {
     height: 270px;
     background-color: powderblue;
 }
+
+
+/* 结尾区域 */
 
 .footer {
     width: 100%;
