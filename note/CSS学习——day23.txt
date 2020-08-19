@@ -1,0 +1,21 @@
+元素的显示与隐藏
+	让一个元素在页面中隐藏或者显示出来
+	1、display
+		display:none;			隐藏对象
+		display:block;			显示元素
+		隐藏元素后不再占有原来位置。
+		搭配JS可以做很多网页特效
+	2、visibility
+		visibility：visible;	可视的
+		visibility：hidden;		隐藏的
+		隐藏后继续占有原来位置
+	3、overflow			溢出
+		visible			溢出显示
+		hidden			溢出不显示
+		scroll			总会添加滚动条
+		auto			根据内容自动添加滚动条
+	.box:hover .hide {
+		display: block;
+	}
+	父盒子的接触让子盒子显示的写法如上
+		

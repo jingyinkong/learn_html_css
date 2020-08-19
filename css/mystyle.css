@@ -8,14 +8,8 @@ body {
     /* text-align: center; */
 }
 
-.box1 {
-    width: 1200px;
-    height: 3000px;
-    background-color: pink;
-    margin: 0 auto;
-}
-
 .box2 {
+    overflow: auto;
     position: sticky;
     top: 300px;
     left: 50%;
@@ -23,10 +17,4 @@ body {
     width: 200px;
     height: 200px;
     background-color: skyblue;
-}
-
-.box3 {
-    width: 200px;
-    height: 200px;
-    background-color: hotpink;
 }
