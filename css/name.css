@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px/1.5 "微软雅黑";
+    /* text-align: center; */
+}
+
+.box {
+    margin: 100px auto;
+    width: 1210px;
+    height: 120px;
+    /* background-color: pink; */
+}
+
+.box ul {
+    width: 1210px;
+    height: 120px;
+}
+
+.box ul li {
+    float: left;
+    list-style: none;
+    background: url(../image/abcd.jpg) no-repeat;
+}
+
+.box ul .j {
+    width: 102px;
+    height: 105px;
+    background-position-x: -389px;
+    background-position-y: -145px;
+}
+
+.box ul .i {
+    width: 62px;
+    height: 108px;
+    background-position: -326px -141px;
+}
+
+.box ul .n {
+    width: 112px;
+    height: 112px;
+    background-position: -255px -274px;
+}
+
+.box ul .g {
+    width: 103px;
+    height: 108px;
+    background-position: -98px -140px;
+}
+
+.box ul .y {
+    width: 109px;
+    height: 109px;
+    background-position: -366px -556px;
+}
+
+.box ul .k {
+    width: 105px;
+    height: 110px;
+    background-position: -494px -142px;
+}
+
+.box ul .o {
+    width: 108px;
+    height: 109px;
+    background-position: -371px -277px;
+}

@@ -8,13 +8,9 @@ body {
     /* text-align: center; */
 }
 
-.box2 {
-    overflow: auto;
-    position: sticky;
-    top: 300px;
-    left: 50%;
-    margin-left: 600px;
-    width: 200px;
-    height: 200px;
-    background-color: skyblue;
+.box {
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-right-color: #000;
 }
