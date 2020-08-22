@@ -9,8 +9,36 @@ body {
 }
 
 .box {
-    width: 0px;
-    height: 0px;
-    border: 10px solid transparent;
-    border-right-color: #000;
+    position: relative;
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.triangle {
+    position: absolute;
+    top: -40px;
+    left: 100px;
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 20px solid skyblue;
+}
+
+li {
+    cursor: not-allowed;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    vertical-align: middle;
 }

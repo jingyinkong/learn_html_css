@@ -1,0 +1,36 @@
+界面样式
+	1、更改用户的鼠标样式
+		li{cursor：pointer;}
+			属性值：default,pointer(小手),move(移动),text(文本),not-allowed(禁止)
+	2、表单轮廓
+		轮廓线：outline;(就是点击之后蓝色的边框线)
+		取消轮廓线：outline：none;或者给一个0值
+		文本域取消拖动：resize:none;(文本域标签尽量放一行，以避免点击后有空格)
+	3、防止表单域被拖拽
+vertical-align:经常用于设置图片或者表单和文字的垂直对齐
+	用于一个元素的垂直对齐方式，只对于行内元素和行内块元素适用
+	vertical-align:baseline(基线)、top(顶线)、middle(中线)、bottom(底线)
+解决图片底部默认的空白缝隙问题
+	原因是因为图片在盒子中默认和文字的基线对齐
+	解决方案1：添加vertical-align
+	解决方案2：将图片转化为块级元素
+溢出文字用省略号表示
+	单行文本省略：
+		1、先强制一行显示：
+			white-space:nowrap;
+		2、超出部分隐藏
+			overflow:hidden;
+		3、用文字省略号替代超出部分
+			text-overflow:ellipsis;
+	多行文本省略：(有兼容性问题)
+		overflow:hidden
+		text-overflow:ellipsis;
+		/*弹性伸缩盒子模型显示*/
+		display:-webkit-box;
+		/*限制在一个块元素显示的文本行数*/
+		-webkit-line-clamp:2;
+		/*设置或者检索伸缩盒子对象的子元素*/
+		-webkit-box-orient:vertical;
+		
+			
+	
