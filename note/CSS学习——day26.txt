@@ -1,0 +1,53 @@
+布局技巧
+	1、margin负值运用
+		1、消除两个盒子浮动后中间边框变成2倍
+			添加mergin-left:-1px;(边框宽度)
+		2、鼠标经过让盒子边框显示出来
+			在hover中添加边框颜色并且使用z-index调整盒子的优先度（如果没有定位的盒子可以添加相对定位）
+			或者在hover中直接添加相对定位，因为相对定位是可以压住浮动和其他盒子的
+	2、文字围绕浮动元素
+		利用浮动元素不会压住文字的方式实现
+	3、行内块的巧妙运用
+		页码部分的制作利用行内块元素实现
+	4、CSS三角强化
+		梯形形状实现
+		三角形+长方形实现：
+		border-top:100px solid transparent;
+		border-right:50px solid skyblue;
+		border-bottom:0;
+		border-left:0;
+		简写：	border-color:transparent red transparent transparent;
+				border-style:solid;
+				border-width；22px 8px 0 0;
+CSS初始化
+	*{
+		margin:0;
+		padding:0;
+	}
+	
+	em,li{
+		font-style:normal;
+	}
+	
+	li {
+		list-style:none;
+	}
+	
+	img{
+		border:0;
+		/*取消图片底侧有空白缝隙的问题*/
+		vertical-align:middle;
+	}
+	botton{
+		/*鼠标样式变成手*/
+		cursor:pointer;
+	}
+	
+	body{
+		/*增加抗锯齿性*/
+		-webkit-font-smoothing:antialiased;
+		background-color:
+		font:
+		color:
+	}
+	Unicode编码字体使用

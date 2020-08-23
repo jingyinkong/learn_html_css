@@ -9,36 +9,22 @@ body {
 }
 
 .box {
-    position: relative;
-    margin: 200px auto;
-    width: 200px;
-    height: 200px;
+    margin: 100px auto;
+    width: 160px;
+    height: 24px;
     background-color: pink;
 }
 
+.price {
+    float: left;
+    width: 80px;
+    height: 24px;
+    background-color: red;
+}
+
 .triangle {
-    position: absolute;
-    top: -40px;
-    left: 100px;
-    margin-left: -20px;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    border-bottom: 20px solid skyblue;
-}
-
-li {
-    cursor: not-allowed;
-}
-
-input {
-    outline: none;
-}
-
-textarea {
-    resize: none;
-}
-
-img {
-    vertical-align: middle;
+    float: left;
+    border-style: solid;
+    border-color: transparent transparent transparent red;
+    border-width: 0 0 24px 12px;
 }
